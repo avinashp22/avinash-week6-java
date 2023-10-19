@@ -12,9 +12,8 @@ public class Program17 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); //scanner object
         System.out.println("Enter Decimal No "); //get input from user
-        String b = scan.next(); //save input from user
-        int b1 = Integer.parseInt(b, 2);
-        String binary = Integer.toBinaryString(b1); //converter
+        int b = scan.nextInt(); //save input from user
+        String binary = Integer.toBinaryString(b); //converter
         System.out.println("Binary number is : " + binary); //print statement with result
         scan.close(); //close scanner
     }
